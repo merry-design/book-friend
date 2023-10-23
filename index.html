@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Friend</title>
+    <!-- Conexión con CSS-->
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,100&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main>
+        <h1>Book Friend</h1>
+                <!--indice-->
+        <!--div elemto de division -->
+        <div>
+            <a href="#fantasia">Fantasia</a>
+            <a href="#novelas">Novelas</a>
+            <a href="#terror">Terror</a>
+            <a href="#academico">Académico</a>
+            <a href="#cinecia-ficcion">Ciencia Ficcion</a>
+            <a href="#teatro">Teatro</a>
+            <a href="#misterio">Misterio</a>
+            <a href="#mangas">Mangas y Comics</a>
+
+        </div>
+        <img src="https://images.vexels.com/media/users/3/271649/isolated/preview/3a1938ea55f27c31d53b585fcebdcd5e-icono-de-dibujos-animados-de-libro-abierto.png" alt="">
+        <img  class="realbooks" src="./images/librito.png" alt="">
+
+       <!--LISTAS-->
+       <h3> Top 5  de libros de Terror</h3>
+       <p>Lista hecha por Tecnolochicas PRO</p>
+        <ol>
+            <!--ordenada 1.2.3...-->
+            <li>Dejad a los Niños - Jhon Saul</li>
+            <li>It - Stephen king</li>
+            <li>El sabueso de los Baskerville - Arthur Conan Doyle</li>
+            <li>Calculo de varias variables - James stewart</li>
+            <li>Frankeinstein - Mary Shelley</li>
+        </ol>
+
+        <h3>Best Sellers</h3>
+        <ul>
+            <!--no ordenada con puntitos-->
+            <li> <a href="https://www.amazon.com.mx/Outlive-Longevity-Peter-Attia-MD/dp/0593236599">Outlive: The Sciencie and Art of longevity</a></li>
+            <li>The Wager: A Tale </li>
+            <li>Assitan to the Villain</li>
+            <li>Romper el circulo</li>
+        </ul>
+
+
+        
+        <h3 id="fantasia">FANTASÍA</h3>
+        <!--hacer para tods los que tenemos-->
+        <p>
+            Dentro de las diversas clasificaciones que recibe la literatura de ficción existe un género que se conoce como fantasía y en la que se encuentran contenidas aquellas obras que narran historias que no pueden ocurrir en un contexto real, que se pasa por alto las leyes de la naturaleza y que busca llevar al lector a mundos imaginarios para hacerlos reflexionar, muchas veces, sobre el propio pero a partir de elementos abstractos.
+        </p>
+
+        <h3 id="novelas">Novelas</h3>
+        <p>
+            La novela es un género literario, subgénero de la narrativa, junto con el cuento y la crónica. Consiste en una narración usualmente extensa, de carácter más o menos ficcional, que se cuenta usualmente por capítulos o segmentos, en los que interviene siempre la voz de un narrador.
+
+            Las novelas suelen tener una trama compleja y abundante, en la que existen digresiones, derivas o vericuetos, y en la que suelen haber varios personajes e incluso diversos puntos de vista desde los cuales se cuenta la historia.
+
+        </p>
+
+        <h3 id="terror">Terro</h3>
+        <p>
+            El diccionario define el terror como un género de ficción que tiene la finalidad de hacernos sentir miedo, repulsión y terror.
+
+            En pocas palabras, se crea un entorno de horror para el consumidor del contenido. De hecho, la palabra horror proviene del francés orror, que se refiere a erizarnos o estremecernos por algo.
+
+            La gente lee cuentos o novelas de terror porque disfruta del miedo. Así lo afirman los psicólogos y expertos.
+
+
+        </p>
+
+        <h3 id="academico">Académico</h3>
+        <p>
+            Definición. Es un documento que expone de manera sintética y para su divulgación el resultado total o parcial de una investigación, desarrollada en el marco de un campo de conocimiento y destinada a una comunidad académica específica.
+        </p>
+         
+       <a href="https://www.elle.com/es/living/ocio-cultura/g19869345/mejores-libros-historia/">Lee mas aqui</a>
+    
+       <p>Haz click en esta imagen para una sorpresa</p>
+       <!--poner una imagen-->
+       <a href="https://www.pinterest.com.mx/pin/712272497303420588/">
+        <img class="kakashiimg" src="./images/kakashi.jpeg" alt="kakashi leyendo un libro">
+       </a>
+      <!--Formulario action es para base de datos-->
+       <form >
+        <!--Foemulario tipo input text-->
+        <p> Cajita para sugerir una reseña </p>
+        <!-- label= etiqueta para identificar cada respuesta-->
+        <label for="reseña-sugerida">
+            <!--type= tipo (text-radio-checkbox)-->
+            <input type="text">
+            <button>Enviar</button>
+
+        </label>
+
+         <!--Foemulario tipo input radio-->
+        <p>¿Qué te parecieron nuestras reseñas?</p>
+        <label for="reseñas-excelente">
+            <!--Name  atributo al input (para relacionar la respuesta)-->
+            <input type="radio" name="calificacion"> Excelentes
+        </label>
+        <br> <!--Salto de Linea-->
+        <label for="reseñas-medio">
+            <input type="radio" name="calificacion"> Regular
+        </label>
+        <br>
+        <label for="reseñas-malo">
+             <input type="radio" name="calificacion"> Malas
+        </label>
+        
+
+        <!--Formulario tipo input checkbox-->
+        <p> ¿Qué tipo de contenido te gustaria ver en nuestra página?</p>
+        <label for="Libros populares">
+            <input type="checkbox" name="mas-contenido"> Reseña de libros populares
+        </label>
+        <br>   
+        <label for="Libros no populares">
+            <input type="checkbox" name="mas-contenido"> Reseña de libros no populares
+        </label>
+        <br>
+        <label for="entrevistas">
+            <input type="checkbox" name="mas-contenido"> Entrevistas con autores
+        </label>
+        <br>
+        <label for="consejos">
+            <input type="checkbox" name="mas-contenido"> Articulos sobre consejos 
+        </label>
+        <br>
+        <label for="otra">
+            <input type="text" name="mas-contenido"> otra (especifica)
+        </label>
+       
+
+
+
+       </form>
+
+
+    </main>
+</body>
+</html>

@@ -1,0 +1,35 @@
+/* comentarios */
+/*cambiar el background de la pagina */
+body{
+    /*color de fondo*/
+    background-color: #F8EDEB;
+    /*color de texto*/
+    color: gray;
+    /*fuente del texto*/
+    font-family: 'Raleway', sans-serif;
+    border: 10px groove #ddbea9;
+   /* border-style: groove; /*la forma del margen*/
+  }
+
+  h1{
+    color: black;
+  }
+
+  h3{
+    color: brown;
+  }
+
+  img{
+    /*ancho de la imagen */
+        width: 300px;
+    /* height= altura del objeto*/
+  }
+  /* clases seimpre llevan . antes del nombre class*/
+  .realbooks{
+    height: 150px;
+  }
+
+  .kakashiimg{
+    width: 300px;
+    border-radius: 10px;
+  }
