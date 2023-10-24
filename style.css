@@ -1,22 +1,61 @@
 /* comentarios */
 /*cambiar el background de la pagina */
 body{
-    /*color de fondo*/
-    background-color: #F8EDEB;
+  margin: 0%;
+  padding: 2%;
+  background: url(./images/ilustracion.avif) ;
+  background-size: contain;
+  display: flex;
+   
+
+    /*color de fondo
+    background-color: #F8EDEB;*/
     /*color de texto*/
-    color: gray;
+    color: black;
     /*fuente del texto*/
-    font-family: 'Raleway', sans-serif;
-    border: 10px groove #ddbea9;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+
+    
+    border: 20px groove #0d7882dc;
    /* border-style: groove; /*la forma del margen*/
   }
 
+  body main div a{
+    text-decoration: none;
+    color: black;
+    background-size: 80px;
+
+  }
+ body main ul a{
+  
+  list-style: none;
+  text-decoration: none;
+  color: black;
+  align-items: center;
+  }
+
+
+
   h1{
     color: black;
+    background-position: contain;
+    background-color: rgba(9, 115, 122, 0.904);
+    
+      }
+
+  h2{
+    text-align: left;
+    margin-left: 6%;
   }
 
   h3{
-    color: brown;
+    color: rgb(3, 2, 2);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: left;
+    margin-left: 3%;
+    
+    
   }
 
   img{
@@ -25,11 +64,12 @@ body{
     /* height= altura del objeto*/
   }
   /* clases seimpre llevan . antes del nombre class*/
-  .realbooks{
+ /* .realbooks{
     height: 150px;
   }
-
+*/
   .kakashiimg{
     width: 300px;
     border-radius: 10px;
+    justify-self: left;
   }
