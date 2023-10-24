@@ -6,6 +6,8 @@ body{
   background: url(./images/ilustracion.avif) ;
   background-size: contain;
   display: flex;
+  backdrop-filter: blur(4px);
+
    
 
     /*color de fondo
